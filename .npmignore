@@ -1,0 +1,21 @@
+node_modules
+coverage
+src
+test
+
+# IntelliJ
+# ========
+*.iml
+.idea/
+
+# Generated files
+# ===============
+*.xml
+*.log*
+
+# Config files
+# ===============
+.babelrc*
+.eslintrc*
+.npmignore
+webpack.config.js

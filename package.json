@@ -1,0 +1,34 @@
+{
+  "name": "babel-webpack-lib-example",
+  "version": "0.0.1",
+  "main": "dist/sampleLib.js",
+  "module": "src/index.js",
+  "scripts": {
+    "build": "webpack --env build",
+    "dev": "webpack --watch --env dev",
+    "test": "mocha --compilers js:babel-core/register --colors ./test/**/*.spec.js",
+    "compile": "babel --presets es2015,stage-0 -d src/",
+    "lint": "eslint --ext .js *.js src test --quiet"
+  },
+  "devDependencies": {
+    "babel-core": "6.24.1",
+    "babel-eslint": "^7.2.2",
+    "babel-loader": "6.4.1",
+    "babel-plugin-add-module-exports": "0.1.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "1.4.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-runtime": "^6.23.0",
+    "chai": "^3.5.0",
+    "eslint": "^3.19.0",
+    "mocha": "^3.2.0",
+    "standard-version": "^4.0.0",
+    "webpack": "2.4.1",
+    "yargs": "^7.1.0"
+  },
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "lodash": "^4.17.4"
+  }
+}
