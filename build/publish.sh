@@ -12,6 +12,4 @@ npm publish
 git checkout develop
 git pull origin develop
 git pull origin master
-git add --all
-git commit -m "Syncing with master after release"
 git push
