@@ -1,14 +1,16 @@
-var expect = require('chai').expect;
-import * as sampleLib from './../../dist/sampleLib';
+import {
+    expect
+} from 'chai';
 
-describe('Given the Util library for perimeter', function() {
+import * as perimeter from './../../src/lib/perimeter';
+
+describe('Perimeter tests', function() {
 
     it('Should return the perimeter of square as 4 X length', function() {
-
-        expect(sampleLib.perimeter.square(5)).to.be.equal(20);
+        expect(perimeter.square(5)).to.be.equal(20);
     });
 
     it('Should return the perimeter of rectangle as (2 X length + 2 X width)', function() {
-        expect(sampleLib.perimeter.rectangle(5, 4)).to.be.equal(18);
+        expect(perimeter.rectangle(5, 4)).to.be.equal(18);
     });
 });
