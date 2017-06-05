@@ -11,5 +11,5 @@ npm publish
 
 git checkout develop
 git pull origin develop
-git pull origin master
+git pull origin master --silent
 git push
