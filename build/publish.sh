@@ -14,3 +14,4 @@ git pull origin current
 git pull origin master
 git add --all
 git commit -m "Syncing with master after release"
+git push
