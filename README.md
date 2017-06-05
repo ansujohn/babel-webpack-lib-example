@@ -2,7 +2,7 @@
 
 
 ## Demonstrating
-- **Some features ofe ES6**
+- **Some features of ES6**
 - **Transpilation using Babel**
 - **Bundling into a library (Commonjs2 module) using Webpack**
 
