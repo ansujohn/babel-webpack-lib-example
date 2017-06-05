@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. 
 
+<a name="0.0.19"></a>
+## [0.0.19](https://github.com/ansujohn/babel-webpack-lib-example/compare/v0.0.18...v0.0.19) (2017-06-05)
+
+
+### Bug Fixes
+
+* **release script:** Fixing the release script ([510a511](https://github.com/ansujohn/babel-webpack-lib-example/commit/510a511))
+
+
+
 <a name="0.0.18"></a>
 ## [0.0.18](https://github.com/ansujohn/babel-webpack-lib-example/compare/v0.0.17...v0.0.18) (2017-06-05)
 
