@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.1.0"></a>
+# [0.1.0](https://github.com/ansujohn/babel-webpack-lib-example/compare/v0.0.20...v0.1.0) (2017-06-05)
+
+
+### Features
+
+* Testing minor version update ([#7](https://github.com/ansujohn/babel-webpack-lib-example/issues/7)) ([e5e7837](https://github.com/ansujohn/babel-webpack-lib-example/commit/e5e7837))
+
+
+
 <a name="0.0.20"></a>
 ## [0.0.20](https://github.com/ansujohn/babel-webpack-lib-example/compare/v0.0.19...v0.0.20) (2017-06-05)
 
