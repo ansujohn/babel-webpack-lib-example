@@ -9,8 +9,8 @@ git push --follow-tags origin master
 
 npm publish
 
-git checkout current
-git pull origin current
+git checkout develop
+git pull origin develop
 git pull origin master
 git add --all
 git commit -m "Syncing with master after release"
