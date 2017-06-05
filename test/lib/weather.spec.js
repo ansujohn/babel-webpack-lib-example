@@ -9,6 +9,7 @@ describe('Weather Tests', function() {
         weather('london')
             .then(response => {
                 expect(response, 'response is not as expected').to.exist;
+                expect(response.weather, 'response is not as expected').to.exist;
                 expect(response.description, 'response is not as expected').to.exist;
                 done();
             }).catch(e => done(e));
