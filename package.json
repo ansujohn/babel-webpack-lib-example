@@ -1,17 +1,25 @@
 {
   "name": "babel-webpack-lib-example",
-  "version": "0.0.2",
+  "version": "0.0.14",
   "main": "dist/sampleLib.js",
   "module": "src/index.js",
-  "description": "Library bundlled using webpack",
+  "description": "An ES6 sample project using Babel and Webpack",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/ansujohn/babel-webpack-lib-example"
   },
   "engines": {
-    "node": ">=5.0.0"
+    "node": ">=6.0.0"
   },
+  "keywords": [
+    "babel",
+    "webpack",
+    "es6",
+    "commonjs2",
+    "library",
+    "example"
+  ],
   "scripts": {
     "build": "webpack --env build",
     "dev": "webpack --watch --env dev",

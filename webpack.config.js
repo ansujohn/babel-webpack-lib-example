@@ -3,22 +3,18 @@ const UglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
 const path = require('path');
 const env = require('yargs').argv.env; // use --env with webpack 2
 
-let libraryName = 'sampleLib';
-let targetFile;
 let plugins = [];
 
 if (env === 'build') {
     plugins.push(new UglifyJsPlugin({minimize: true}));
 }
 
-targetFile = libraryName + '.js';
-
 module.exports = {
     entry: ['./src/index.js'],
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: targetFile,
-        library: libraryName,
+        filename: 'sampleLib.js',
+        library: 'sampleLib',
         libraryTarget: 'commonjs2',
         umdNamedDefine: true
     },
