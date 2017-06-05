@@ -1,6 +1,6 @@
 # Change Log
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+All notable changes to this project will be documented in this file. 
 
 <a name="0.0.18"></a>
 ## [0.0.18](https://github.com/ansujohn/babel-webpack-lib-example/compare/v0.0.17...v0.0.18) (2017-06-05)
@@ -20,3 +20,4 @@ All notable changes to this project will be documented in this file. See [standa
 
 <a name="0.0.15"></a>
 ## [0.0.15](https://github.com/ansujohn/babel-webpack-lib-example/compare/v0.0.2...v0.0.15) (2017-06-05)
+
