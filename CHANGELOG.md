@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.4.0"></a>
+# [2.4.0](https://github.com/ansujohn/babel-webpack-lib-example/compare/v2.3.0...v2.4.0) (2017-06-06)
+
+
+### Features
+
+* Perimeter ([#23](https://github.com/ansujohn/babel-webpack-lib-example/issues/23)) ([7921609](https://github.com/ansujohn/babel-webpack-lib-example/commit/7921609))
+* Temperature ([#22](https://github.com/ansujohn/babel-webpack-lib-example/issues/22)) ([24a1484](https://github.com/ansujohn/babel-webpack-lib-example/commit/24a1484))
+
+
+
 <a name="2.3.0"></a>
 # [2.3.0](https://github.com/ansujohn/babel-webpack-lib-example/compare/v2.2.0...v2.3.0) (2017-06-06)
 
