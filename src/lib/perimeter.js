@@ -9,5 +9,4 @@ const rectangle = (length, width) => {
 const circle = (radius) => {
     return Math.round(2 * constants.PI * radius * 100) / 100;
 };
-
 export {square, rectangle, circle};
