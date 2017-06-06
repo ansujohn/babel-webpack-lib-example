@@ -1,9 +1,10 @@
+
 require('isomorphic-fetch');
 
 import * as constants from './../constants/constants';
 
 /**
- * Get Weather Info
+ * Get Weather Info. Returns promise
  * @param city
  * @returns {Promise.<TResult>}
  */

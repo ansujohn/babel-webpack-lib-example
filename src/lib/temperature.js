@@ -1,6 +1,6 @@
 
 /**
- * farenheitToCelsius
+ * farenheitToCelsius API
  * @param temp temperature
  * @returns {number}
  */
@@ -8,8 +8,9 @@ export const farenheitToCelsius = (temp) => {
     return (temp - 32) * 5 / 9;
 };
 
+
 /**
- * celsiusToFarenheit
+ * celsiusToFarenheit API
  * @param temp temperature
  * @returns {number}
  */
