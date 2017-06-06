@@ -2,6 +2,11 @@ require('isomorphic-fetch');
 
 import * as constants from './../constants/constants';
 
+/**
+ * Get Weather Info
+ * @param city
+ * @returns {Promise.<TResult>}
+ */
 export default (city) => {
     if (!city) {
         throw new Error('Weather needs a city to be provided.');
