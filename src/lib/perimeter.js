@@ -9,6 +9,12 @@ const square = (width) => {
     return width * 4;
 };
 
+/**
+ * RECTANGLE API
+ * @param length
+ * @param width
+ * @returns {number}
+ */
 const rectangle = (length, width) => {
     return 2 * length + 2 * width;
 };
