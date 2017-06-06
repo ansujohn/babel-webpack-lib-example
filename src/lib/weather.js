@@ -6,7 +6,6 @@ export default (city) => {
     if (!city) {
         throw new Error('Weather needs a city to be provided.');
     }
-
     const url = `http://api.openweathermap.org/data/2.5/weather?APPID=${constants.WEATHER_API_KEY}&q=${city}`;
 
     return fetch(url)
