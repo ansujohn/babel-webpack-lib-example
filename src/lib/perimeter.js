@@ -1,5 +1,10 @@
 import * as constants from './../constants/constants';
 
+/**
+ * SQUARE API
+ * @param width
+ * @returns {number}
+ */
 const square = (width) => {
     return width * 4;
 };
