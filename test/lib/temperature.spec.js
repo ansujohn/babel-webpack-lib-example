@@ -2,19 +2,15 @@ import {
     expect
 } from 'chai';
 
-import * as perimeter from './../../src/lib/perimeter';
+import * as temperature from './../../src/lib/temperature';
 
-describe('Perimeter tests', function() {
+describe('Temperature tests', function() {
 
-    it('Should return the perimeter of square as 4 X length', function() {
-        expect(perimeter.square(5)).to.be.equal(20);
+    it('Should return the temperature in Fareheit', function() {
+        expect(temperature.celsiusToFarenheit(37)).to.be.equal(98.6);
     });
 
-    it('Should return the perimeter of rectangle as (2 X length + 2 X width)', function() {
-        expect(perimeter.rectangle(5, 4)).to.be.equal(18);
-    });
-
-    it('Should return the perimeter of circle as (2 X radius X PI)', function() {
-        expect(perimeter.circle(5)).to.be.equal(31.42);
+    it('Should return the temperature in Celsius', function() {
+        expect(temperature.farenheitToCelsius(98.6)).to.be.equal(37);
     });
 });
