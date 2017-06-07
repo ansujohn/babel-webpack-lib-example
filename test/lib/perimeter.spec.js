@@ -2,6 +2,7 @@ import {
     expect
 } from 'chai';
 
+
 import * as perimeter from './../../src/lib/perimeter';
 
 describe('Perimeter tests', function() {
@@ -16,5 +17,9 @@ describe('Perimeter tests', function() {
 
     it('Should return the perimeter of circle as (2 X radius X PI)', function() {
         expect(perimeter.circle(5)).to.be.equal(31.42);
+    });
+
+    it('Should return the perimeter of circle as (2 X radius X PI)', function() {
+        expect(perimeter.circle(10)).to.be.equal(62.84);
     });
 });
