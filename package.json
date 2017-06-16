@@ -1,6 +1,6 @@
 {
   "name": "babel-webpack-lib-example",
-  "version": "2.5.0",
+  "version": "2.5.1",
   "main": "dist/sampleLib.js",
   "module": "src/index.js",
   "description": "An ES6 sample project using Babel and Webpack",
