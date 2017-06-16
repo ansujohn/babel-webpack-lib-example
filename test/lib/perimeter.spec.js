@@ -22,4 +22,8 @@ describe('Perimeter tests', function() {
     it('Should return the perimeter of circle as (2 X radius X PI)', function() {
         expect(perimeter.circle(10)).to.be.equal(62.84);
     });
+
+    it('Should return the perimeter of circle as (0 X radius X PI)', function() {
+        expect(perimeter.circle(0)).to.be.equal(0);
+    });
 });
